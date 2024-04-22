@@ -12,3 +12,8 @@ git commit -m "first commit"
 7) Alterar o nome do repositório: git branch -M main
 8) Ligar repositório local ao remoto (nuvem): git remote add origin git@github.com:gaio/projeto1git.git
 9) "Empurrar" arquivos que sofreram commit para a nuvem: git push -u origin main
+
+Observações:
+* Foi necessário instanciar o agente ssh e adicionar a chave privada a ele. 
+* Também no github adicionamos a chave pública e escolhemos o método autenticação.
+
